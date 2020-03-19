@@ -3,10 +3,22 @@ package manager;
 import domain.Post;
 
 public class PostManager {
-        private Post[] id;
+    private Post[] posts;
+    private int ownerId;
+    private String domain;
+    private String query;
+    private boolean ownersOnly;
+    private int count;
+    private int offset;
+    private int postId;
 
 
-        public Post[] getMoviesForFeed()
-        {// TODO: add logic //
-                return null;    }
-        }
+    public Post[] search() {
+        // TODO: add logic //
+        return null;
+    }
+
+    public void delete() {
+        // TODO: add logic //
+    }
+}

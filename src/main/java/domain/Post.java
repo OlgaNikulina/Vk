@@ -1,6 +1,5 @@
 package domain;
 
-import sun.jvm.hotspot.types.CIntegerField;
 
 public class Post {
     private int id;
