@@ -1,3 +1,5 @@
+package domain;
+
 public class SettingBlock {
     private boolean writeMessage;
     private boolean shareWithFriends;

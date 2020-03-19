@@ -1,3 +1,5 @@
+package domain;
+
 public class Subscribers {
     private String id;
     private boolean search;

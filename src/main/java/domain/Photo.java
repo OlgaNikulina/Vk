@@ -1,6 +1,8 @@
-public class Video {
+package domain;
+
+public class Photo {
     private String id;
-    private String videoUrl;
+    private String imageUrl;
     private String name;
     private boolean canComment;
     private boolean share;
@@ -14,12 +16,12 @@ public class Video {
         this.id = id;
     }
 
-    public String getVideoUrl() {
-        return videoUrl;
+    public String getImageUrl() {
+        return imageUrl;
     }
 
-    public void setVideoUrl(String videoUrl) {
-        this.videoUrl = videoUrl;
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
     public String getName() {

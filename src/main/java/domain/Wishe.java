@@ -1,3 +1,5 @@
+package domain;
+
 public class Wishe {
     public boolean isWantMailing() {
         return wantMailing;

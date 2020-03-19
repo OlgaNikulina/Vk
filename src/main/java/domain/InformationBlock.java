@@ -1,3 +1,5 @@
+package domain;
+
 public class InformationBlock {
     private String id;
     private  int websiteUrl;

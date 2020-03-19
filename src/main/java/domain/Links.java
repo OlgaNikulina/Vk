@@ -1,3 +1,5 @@
+package domain;
+
 public class Links {
     private String linkUrl;
 

@@ -1,3 +1,5 @@
+package domain;
+
 public class Contacts {
     private String webSite;
     private String link;

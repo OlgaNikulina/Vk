@@ -1,3 +1,5 @@
+package domain;
+
 public class MainBlock {
     private String id;
     private int imageUrl;
