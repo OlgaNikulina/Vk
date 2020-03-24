@@ -7,10 +7,10 @@ public class Place {
     private int longitude;
     private int created;
     private String icon;
-    private int checkins;
+    private int checkinInfo;
     private int updated;
     private int type;
-    private int ountry;
+    private int country;
     private int city;
     private String address;
 
@@ -62,12 +62,12 @@ public class Place {
         this.icon = icon;
     }
 
-    public int getCheckins() {
-        return checkins;
+    public int getCheckinInfo() {
+        return checkinInfo;
     }
 
-    public void setCheckins(int checkins) {
-        this.checkins = checkins;
+    public void setCheckinInfo(int checkinInfo) {
+        this.checkinInfo = checkinInfo;
     }
 
     public int getUpdated() {
@@ -86,12 +86,12 @@ public class Place {
         this.type = type;
     }
 
-    public int getOuntry() {
-        return ountry;
+    public int getCountry() {
+        return country;
     }
 
-    public void setOuntry(int ountry) {
-        this.ountry = ountry;
+    public void setCountry(int country) {
+        this.country = country;
     }
 
     public int getCity() {

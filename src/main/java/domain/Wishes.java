@@ -1,6 +1,6 @@
 package domain;
 
-public class Wishe {
+public class Wishes {
     public boolean isWantMailing() {
         return wantMailing;
     }

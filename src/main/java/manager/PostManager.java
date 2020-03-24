@@ -1,6 +1,7 @@
 package manager;
 
 import domain.Post;
+import javafx.geometry.Pos;
 
 public class PostManager {
     private Post[] posts;
@@ -12,13 +13,12 @@ public class PostManager {
     private int offset;
     private int postId;
 
-
-    public Post[] search() {
+    public Post[] wallSearch(Post[] posts) {
         // TODO: add logic //
         return null;
     }
 
-    public void delete() {
+    public void wallDelete(ownerId, postId) {
         // TODO: add logic //
     }
 }
