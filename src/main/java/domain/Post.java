@@ -20,6 +20,13 @@ public class Post {
     private int markedAsAds;
     private boolean isFavorite;
     private int postponedId;
+    private CommentsInfo[]comments;
+    private Geo[]places;
+    private LikesInfo[]likes;
+    private RepostsInfo[]reposts;
+    private ViewsInfo[]views;
+    private PostSource[]sources;
+
 
     public int getId() {
         return id;
