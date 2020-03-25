@@ -13,7 +13,7 @@ public class PostManager {
     private int offset;
     private int postId;
 
-    public Post[] wallSearch(int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
+    public Post[] wallSearch(int date, String text, int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
         // TODO: add logic //
         return null;
     }
