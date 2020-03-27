@@ -20,13 +20,12 @@ public class Post {
     private int markedAsAds;
     private boolean isFavorite;
     private int postponedId;
-    private CommentsInfo[]comments;
-    private Geo[]places;
-    private LikesInfo[]likes;
-    private RepostsInfo[]reposts;
-    private ViewsInfo[]views;
-    private PostSource[]sources;
-
+    private Object CommentsInfo;
+    private Object Geo;
+    private Object LikesInfo;
+    private Object RepostsInfo;
+    private Object ViewsInfo;
+    private Object PostSource;
 
     public int getId() {
         return id;
@@ -40,8 +39,8 @@ public class Post {
         return ownerId;
     }
 
-    public void setOwnerId(int owner_id) {
-        this.ownerId = owner_id;
+    public void setOwnerId(int ownerId) {
+        this.ownerId = ownerId;
     }
 
     public int getFromId() {
@@ -171,7 +170,56 @@ public class Post {
     public void setPostponedId(int postponedId) {
         this.postponedId = postponedId;
     }
+
+    public Object getCommentsInfo() {
+        return CommentsInfo;
+    }
+
+    public void setCommentsInfo(Object commentsInfo) {
+        CommentsInfo = commentsInfo;
+    }
+
+    public Object getGeo() {
+        return Geo;
+    }
+
+    public void setGeo(Object geo) {
+        Geo = geo;
+    }
+
+    public Object getLikesInfo() {
+        return LikesInfo;
+    }
+
+    public void setLikesInfo(Object likesInfo) {
+        LikesInfo = likesInfo;
+    }
+
+    public Object getRepostsInfo() {
+        return RepostsInfo;
+    }
+
+    public void setRepostsInfo(Object repostsInfo) {
+        RepostsInfo = repostsInfo;
+    }
+
+    public Object getViewsInfo() {
+        return ViewsInfo;
+    }
+
+    public void setViewsInfo(Object viewsInfo) {
+        ViewsInfo = viewsInfo;
+    }
+
+    public Object getPostSource() {
+        return PostSource;
+    }
+
+    public void setPostSource(Object postSource) {
+        PostSource = postSource;
+    }
 }
+
 
 
 
