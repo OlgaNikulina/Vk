@@ -20,12 +20,12 @@ public class Post {
     private int markedAsAds;
     private boolean isFavorite;
     private int postponedId;
-    private Object CommentsInfo;
-    private Object Geo;
-    private Object LikesInfo;
-    private Object RepostsInfo;
-    private Object ViewsInfo;
-    private Object PostSource;
+    private CommentsInfo commentsInfo;
+    private Geo geo;
+    private LikesInfo likesInfo;
+    private RepostsInfo repostsInfo;
+    private ViewsInfo viewsInfo;
+    private PostSource postSource;
 
     public int getId() {
         return id;
@@ -171,54 +171,57 @@ public class Post {
         this.postponedId = postponedId;
     }
 
-    public Object getCommentsInfo() {
-        return CommentsInfo;
+    public CommentsInfo getCommentsInfo() {
+        return commentsInfo;
     }
 
-    public void setCommentsInfo(Object commentsInfo) {
-        CommentsInfo = commentsInfo;
+    public void setCommentsInfo(CommentsInfo commentsInfo) {
+        this.commentsInfo = commentsInfo;
     }
 
-    public Object getGeo() {
-        return Geo;
+    public Geo getGeo() {
+        return geo;
     }
 
-    public void setGeo(Object geo) {
-        Geo = geo;
+    public void setGeo(Geo geo) {
+        this.geo = geo;
     }
 
-    public Object getLikesInfo() {
-        return LikesInfo;
+    public LikesInfo getLikesInfo() {
+        return likesInfo;
     }
 
-    public void setLikesInfo(Object likesInfo) {
-        LikesInfo = likesInfo;
+    public void setLikesInfo(LikesInfo likesInfo) {
+        this.likesInfo = likesInfo;
     }
 
-    public Object getRepostsInfo() {
-        return RepostsInfo;
+    public RepostsInfo getRepostsInfo() {
+        return repostsInfo;
     }
 
-    public void setRepostsInfo(Object repostsInfo) {
-        RepostsInfo = repostsInfo;
+    public void setRepostsInfo(RepostsInfo repostsInfo) {
+        this.repostsInfo = repostsInfo;
     }
 
-    public Object getViewsInfo() {
-        return ViewsInfo;
+    public ViewsInfo getViewsInfo() {
+        return viewsInfo;
     }
 
-    public void setViewsInfo(Object viewsInfo) {
-        ViewsInfo = viewsInfo;
+    public void setViewsInfo(ViewsInfo viewsInfo) {
+        this.viewsInfo = viewsInfo;
     }
 
-    public Object getPostSource() {
-        return PostSource;
+    public PostSource getPostSource() {
+        return postSource;
     }
 
-    public void setPostSource(Object postSource) {
-        PostSource = postSource;
+    public void setPostSource(PostSource postSource) {
+        this.postSource = postSource;
     }
 }
+
+
+
 
 
 

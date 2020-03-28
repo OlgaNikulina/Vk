@@ -4,7 +4,7 @@ import domain.Post;
 import javafx.geometry.Pos;
 
 public class PostManager {
-    private Post[] posts;
+    private Post post;
     private int ownerId;
     private String domain;
     private String query;
@@ -14,6 +14,21 @@ public class PostManager {
     private int postId;
 
     public Post[] wallSearch(int date, String text, int ownerId, String domain, String query, boolean ownersOnly, int count, int offset) {
+        // TODO: add logic //
+        return null;
+    }
+
+    public Post[] wallSearch(int date) {
+        // TODO: add logic //
+        return null;
+    }
+
+    public Post[] wallSearch(String query, String domain) {
+        // TODO: add logic //
+        return null;
+    }
+
+    public Post[] wallSearch(String text) {
         // TODO: add logic //
         return null;
     }

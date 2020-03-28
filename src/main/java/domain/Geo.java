@@ -3,7 +3,7 @@ package domain;
 public class Geo {
     private String type;
     private String coordinates;
-    private Object Place;
+    private Place place;
 
     public String getType() {
         return type;
@@ -21,11 +21,11 @@ public class Geo {
         this.coordinates = coordinates;
     }
 
-    public Object getPlace() {
-        return Place;
+    public Place getPlaces() {
+        return place;
     }
 
-    public void setPlace(Object place) {
-        Place = place;
+    public void setPlaces(Place places) {
+        this.place = place;
     }
 }
